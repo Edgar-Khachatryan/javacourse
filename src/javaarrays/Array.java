@@ -98,6 +98,7 @@ public class Array {
      * @param arr
      */
 
+
     public void findDifferences(int[] arr){
 
         for (int i = 0; i<arr.length-2; i++){
