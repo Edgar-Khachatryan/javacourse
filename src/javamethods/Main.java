@@ -2,6 +2,7 @@ import java.sql.SQLOutput;
 import java.util.Random;
 import java.util.Scanner;
 
+
 //TODO Task 1
 //public class Main {
 //    public static void main(String[] args) {
