@@ -30,7 +30,6 @@ public class Main {
         System.out.println(a-b);
         System.out.println(a%b);
 
-
     }
 
     public static void arithmetic2(double c, double d){
