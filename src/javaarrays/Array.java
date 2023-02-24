@@ -55,6 +55,7 @@ public class Array {
     /**
      *moving from array to another array
      */
+
     public void moveToAnother(int n[], int m[]){
 
         for (int i=0; i<n.length; i++){
