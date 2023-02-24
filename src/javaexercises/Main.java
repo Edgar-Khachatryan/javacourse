@@ -10,7 +10,6 @@ public class Main {
         largestSmallest();
     }
 
-
     public static boolean packageRice(int small, int goal, int big) {
         goal = 1 % big;
         if (small == goal) {
