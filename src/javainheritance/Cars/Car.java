@@ -13,6 +13,11 @@ public class Car {
         return passengerCount;
     }
 
+    /**
+     * @param passengerCount
+     * counting passengers
+     */
+
     public void setPassengerCount(int passengerCount) {
         if (passengerCount>2){
             this.passengerCount = passengerCount;
