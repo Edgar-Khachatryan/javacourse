@@ -36,6 +36,10 @@ public class Main {
         }
     }
 
+    /**
+     * printing in reverse order
+     */
+
     public static void reverse() {
         System.out.println("Enter a number");
         Scanner num = new Scanner(System.in);
@@ -45,6 +49,10 @@ public class Main {
             System.out.print(i);
         }
     }
+
+    /**
+     * find power of given number
+     */
 
     public static void powerOf() {
         System.out.println("Enter first number ");
@@ -60,6 +68,10 @@ public class Main {
         }
         System.out.println(res);
     }
+
+    /**
+     * check if given number is Prime
+     */
 
     public static void checkPrime() {
         System.out.println("Enter a integer");
@@ -79,6 +91,10 @@ public class Main {
         }
     }
 
+    /**
+     * asking user give number while answer will not be n
+     */
+
     public static void askUser() {
 
         Scanner input = new Scanner(System.in);
@@ -96,6 +112,10 @@ public class Main {
         System.out.println("Thank you Good Bye !");
 
     }
+
+    /**
+     * count positive, negativ and zero numbers
+     */
 
     public static void countOf() {
         Scanner sc = new Scanner(System.in);
@@ -122,6 +142,10 @@ public class Main {
         System.out.println("Negative count of number is: " + countNegative);
         System.out.println("Zero count of number is: " + countZero);
     }
+
+    /**
+     * find largest and smallest number
+     */
 
 
     public static void largestSmallest() {
@@ -151,6 +175,10 @@ public class Main {
     }
 
 
+    /**
+     * check if number is Armstrong
+     */
+
     public static void isArmstrong() {
         int i;
         for (i = 2; i < 501; i++) {
@@ -170,6 +198,10 @@ public class Main {
         }
     }
 
+    /**
+     * calculate sum
+     */
+
     public static void calcSum() {
         System.out.println("Enter a number");
         Scanner sc = new Scanner(System.in);
@@ -181,6 +213,10 @@ public class Main {
         }
         System.out.println(sum);
     }
+
+    /**
+     * calculate sum logarithm
+     */
 
     public static void logarithmSum() {
         Scanner sc = new Scanner(System.in);
@@ -195,6 +231,10 @@ public class Main {
         System.out.println("The natural logarithm of 2 is approximately: " + sum);
 
     }
+
+    /**
+     * gues number
+     */
 
     public static void guessNumber() {
         Scanner sc = new Scanner(System.in);
@@ -213,6 +253,9 @@ public class Main {
         System.out.println("You guess the number !");
     }
 
+    /**
+     * printing patterns
+     */
 
     public static void printPattern() {
         for (int i = 0; i < 4; i++) {
