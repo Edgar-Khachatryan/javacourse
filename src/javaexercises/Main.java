@@ -27,6 +27,9 @@ public class Main {
 
     }
 
+    /**
+     * check if number odd or even
+     */
 
     public static void checkOddEven() {
         Random random = new Random();
