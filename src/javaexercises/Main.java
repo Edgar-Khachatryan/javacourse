@@ -4,11 +4,20 @@ import java.util.Random;
 
 public class Main {
 
+
     public static void main(String[] args) {
         System.out.println(packageRice(1, 1, 6));
         checkOddEven();
         largestSmallest();
     }
+
+    /**
+     * @param small
+     * @param goal
+     * @param big
+     * @return
+     * returning boolean
+     */
 
     public static boolean packageRice(int small, int goal, int big) {
         goal = 1 % big;
@@ -18,13 +27,6 @@ public class Main {
 
     }
 
-//    public static int primeNumber(int givenNumber){
-//        System.out.println("Enter your number");
-//        Scanner pr = new Scanner(System.in);
-//        givenNumber = pr.nextInt();
-//
-//
-//    }
 
     public static void checkOddEven() {
         Random random = new Random();
@@ -36,6 +38,10 @@ public class Main {
         }
 
     }
+
+    /**
+     * pick up random min and max numbers
+     */
 
     public static void largestSmallest() {
         Random random = new Random();
