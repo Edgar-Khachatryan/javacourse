@@ -191,6 +191,13 @@ public class Array {
         }
     }
 
+    /**
+     *
+     * @param arr
+     * @return
+     * returning values of above Diagonal and doing swap
+     */
+
     public int[][] aboveDiagonalSwap(int [][] arr){
         int right;
         int left;
