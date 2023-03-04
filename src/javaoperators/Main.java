@@ -9,7 +9,7 @@ public class Main {
         arithmetic2(6.4,0.03);
         arithmetic3();
         unary(10,-88,true);
-//        assignment();
+        assignment();
         relational(10,20);
         additional();
         shift();
