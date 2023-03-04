@@ -77,12 +77,26 @@ public class Strings {
         return even;
     }
 
-//    public String cezarAlphabet(String text, int key){
-//        String chars = "";
-//        for (int i = 0; i < text.length(); i++) {
-//            chars +=ALPHABET.charAt(i+key);
-//        }
-//    }
+    /**
+     * creating cezar alphabet
+     * @param text
+     * @param key
+     * @return
+     */
+
+    public String cezarAlphabet(String text, int key){
+        String chars = "";
+        for (int i = 0; i < text.length(); i++) {
+            chars +=ALPHABET.charAt(i+key);
+        }
+        return chars;
+    };
+
+    /**
+     * finding sub palindrome
+     * @param text
+     * @return
+     */
 
     public String findSubPalindrome(String text) {
 
