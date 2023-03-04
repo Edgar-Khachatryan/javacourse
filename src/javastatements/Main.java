@@ -7,27 +7,30 @@ public class Main {
 
     public static void main(String[] args) {
         checkOddEven(8);
-//        checkPositiveNegative(10);
-//        System.out.println(checkSecondNumber(974));
-//        justCheck(10);
-//        checkDivide(10);
-//        System.out.println(checkSecondNumber(10));
-//        checkCoordinates(1, 2, 3);
-//        checkBiggest(10, 15, 20);
-//        checkLeapYear(1997);
-//        printEight();
-//        fixMistakes();
-//        printFirstDigit(265);
-//        whileDo(1, 0);
-//        squarePic();
-//        sumOfEn();
-//        multiplyByEn();
-        checkSam();
-//        findMinMax();
-//        samOfDigits();
+       checkPositiveNegative(10);
+       System.out.println(checkSecondNumber(974));
+       justCheck(10);
+       checkDivide(10);System.out.println(checkSecondNumber(10));
+       checkCoordinates(1, 2, 3);
+       checkBiggest(10, 15, 20);
+       checkLeapYear(1997);
+       printEight();
+       fixMistakes();
+       printFirstDigit(265);
+       whileDo(1, 0);
+       squarePic();
+       sumOfEn();
+       multiplyByEn();
+       checkSam();
+       findMinMax();
+       samOfDigits();
 
     }
 
+    /**
+     * @param x
+     * checking if number odd or even
+     */
 
     public static void checkOddEven(double x) {
         if (x % 2 == 0) {
@@ -36,6 +39,11 @@ public class Main {
             System.out.println(x + " is odd");
         }
     }
+
+    /**
+     * checking if number negative or positive
+     * @param x
+     */
 
     public static void checkPositiveNegative(float x) {
         if (x > 0) {
@@ -47,6 +55,11 @@ public class Main {
         }
     }
 
+    /**
+     * checking if number meets our conditions
+     * @param x
+     */
+
     public static void justCheck(float x) {
         if (x < 8 && x > 5 || x < 20 && x > 15) {
             System.out.println("X meets your conditions");
@@ -55,6 +68,11 @@ public class Main {
         }
     }
 
+    /**
+     * checking divisible
+     * @param x
+     */
+
     public static void checkDivide(float x) {
         if (x % 5 == 0 && x % 7 == 0) {
             System.out.println("X meets your conditions to divide");
@@ -62,6 +80,13 @@ public class Main {
             System.out.println("X doesn't meet your conditions to divide");
         }
     }
+
+
+    /**
+     * finding second number
+     * @param x
+     * @return
+     */
 
     public static boolean checkSecondNumber(int x) {
         if ((x / 10) % 10 == 7) {
@@ -74,6 +99,13 @@ public class Main {
         }
     }
 
+    /**
+     * finding coordinates
+     * @param x
+     * @param y
+     * @param k
+     */
+
     public static void checkCoordinates(double x, double y, double k) {
         if (k <= ((x - 0) * (x - 0) + (y - 5) * (y - 5))) {
             System.out.println("K in that space");
@@ -81,6 +113,13 @@ public class Main {
             System.out.println("K not in that space");
         }
     }
+
+    /**
+     * finding biggest number
+     * @param a
+     * @param b
+     * @param c
+     */
 
     public static void checkBiggest(int a, int b, int c) {
         if (a >= b && a >= c) {
@@ -92,6 +131,11 @@ public class Main {
         }
     }
 
+    /**
+     * checking leap year
+     * @param year
+     */
+
     public static void checkLeapYear(int year) {
         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
             System.out.println(year + " is leap");
@@ -99,6 +143,10 @@ public class Main {
             System.out.println(year + " is NOT leap");
         }
     }
+
+    /**
+     * printing 8 number
+     */
 
     public static void printEight() {
         int x = 0;
@@ -109,6 +157,10 @@ public class Main {
             }
         }
     }
+
+    /**
+     * finding mistakes
+     */
 
     public static void fixMistakes() {
         int x = 2;
@@ -127,12 +179,23 @@ public class Main {
         System.out.println(a);
     }
 
+    /**
+     * returning first digit
+     * @param x
+     */
+
     public static void printFirstDigit(int x) {
         while (x >= 10) {
             x = x / 10;
         }
         System.out.println(x);
     }
+
+    /**
+     * whileDo statement
+     * @param x
+     * @param y
+     */
 
     public static void whileDo(int x, int y) {
         do {
@@ -143,11 +206,19 @@ public class Main {
         while (x < 5 && x < 10);
     }
 
+    /**
+     * printing square
+     */
+
     public static void squarePic() {
         for (int i = 1; i < 5; i++) {
             System.out.println("****");
         }
     }
+
+    /**
+     * finding sum of given number
+     */
 
     public static void sumOfEn() {
         System.out.println("Enter the number \n");
@@ -161,6 +232,10 @@ public class Main {
         }
         System.out.println(sam);
     }
+
+    /**
+     * finding multiplication of n
+     */
 
     public static void multiplyByEn() {
         System.out.println("Enter the number: ");
@@ -179,6 +254,10 @@ public class Main {
         }
     }
 
+    /**
+     * finding sum
+     */
+
     public static void checkSam(){
         System.out.println("Enter a number");
         Scanner n = new Scanner(System.in);
@@ -194,6 +273,10 @@ public class Main {
         System.out.println(mult);
     }
 
+    /**
+     * finding max value
+     */
+
     public static void findMinMax(){
         System.out.println("Enter a number");
         Scanner n = new Scanner(System.in);
@@ -208,6 +291,10 @@ public class Main {
         }
         System.out.println((max + 1)/2);
     }
+
+    /**
+     * finding sum
+     */
 
     public static void samOfDigits(){
         System.out.println("Enter a 5 digit number");
