@@ -16,6 +16,9 @@ public class Emplyoee {
     }
 
 
+    /**
+     * printing information about employees
+     */
 
     public void printEmploye() {
         System.out.println("ID: " + id);
