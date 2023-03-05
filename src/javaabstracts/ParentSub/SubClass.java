@@ -1,4 +1,4 @@
-package javaabstracts;
+package javaabstracts.ParentSub;
 
 public class SubClass extends Parent{
     @Override

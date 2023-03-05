@@ -1,4 +1,4 @@
-package javaabstracts;
+package javaabstracts.ParentSub;
 
 public class Main {
     public static void main(String[] args) {

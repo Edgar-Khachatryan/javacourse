@@ -1,4 +1,4 @@
-package javaabstracts;
+package javaabstracts.ParentSub;
 
 public abstract class Parent {
     public Parent(){
