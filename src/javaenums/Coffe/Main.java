@@ -1,4 +1,4 @@
-package Coffe;
+package javaenums.Coffe;
 
 public class Main {
     public static void main(String[] args) {

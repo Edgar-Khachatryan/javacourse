@@ -1,4 +1,4 @@
-package TrafficLights;
+package javaenums.TrafficLights;
 
 public enum TrafficLightsState {
     RED,

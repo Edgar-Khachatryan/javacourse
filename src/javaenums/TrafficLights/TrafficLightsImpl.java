@@ -1,4 +1,4 @@
-package TrafficLights;
+package javaenums.TrafficLights;
 
 import org.w3c.dom.ls.LSOutput;
 
@@ -9,6 +9,10 @@ public class TrafficLightsImpl extends Traffic {
         super(TrafficLightsState.RED);
         previousState = TrafficLightsState.YELLOW;
     }
+
+    /**
+     * overiding changeState and setting conditions
+     */
 
     @Override
     public void changeState() {

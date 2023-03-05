@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Strings str = new Strings();
 
-        System.out.println(str.returnFirstTwo(first));
+//        System.out.println(str.returnFirstTwo(first));
         System.out.println(str.countXX("alxxoxxxlo"));
         System.out.println(str.isPalindrome("alla"));
         List<String> myList = new ArrayList<>();

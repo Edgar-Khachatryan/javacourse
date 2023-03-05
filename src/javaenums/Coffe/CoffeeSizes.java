@@ -1,4 +1,4 @@
-package Coffe;
+package javaenums.Coffe;
 
 public enum CoffeeSizes {
     LARGE,
